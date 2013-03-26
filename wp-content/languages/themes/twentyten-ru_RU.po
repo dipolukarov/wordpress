@@ -1,0 +1,457 @@
+# Copyright (C) 2012 WordPress
+# This file is distributed under the same license as the WordPress package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Twenty Ten 1.5\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/twentyten\n"
+"POT-Creation-Date: 2012-12-07 21:19:05+00:00\n"
+"PO-Revision-Date: 2012-12-08 14:11+0400\n"
+"Last-Translator: Sergey Biryukov <sergeybiryukov.ru@gmail.com>\n"
+"Language-Team: ru.wordpress.org <sergeybiryukov.ru@gmail.com>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n%10==1 && n%100!=11) ? 3 : "
+"((n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20)) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;_c;__ngettext:1,2\n"
+"X-Poedit-Basepath: S:\\home\\wordpress\\trunk\\wp-content\\themes"
+"\\twentyten\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: S:\\home\\wordpress\\trunk\\wp-content\\themes"
+"\\twentyten\n"
+
+#: 404.php:16 loop.php:33
+msgid "Not Found"
+msgstr "Не найдено"
+
+#: 404.php:18
+msgid ""
+"Apologies, but the page you requested could not be found. Perhaps searching "
+"will help."
+msgstr ""
+"Извините, запрошенную вами страницу найти не удалось. Попробуйте найти её с "
+"помощью поиска."
+
+#: archive.php:33
+msgid "Daily Archives: <span>%s</span>"
+msgstr "Архив за день: <span>%s</span>"
+
+#: archive.php:35
+msgid "Monthly Archives: <span>%s</span>"
+msgstr "Архив за месяц: <span>%s</span>"
+
+#: archive.php:35
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:37
+msgid "Yearly Archives: <span>%s</span>"
+msgstr "Архив за год: <span>%s</span>"
+
+#: archive.php:37
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:39
+msgid "Blog Archives"
+msgstr "Архив блога"
+
+#: author.php:27
+msgid "Author Archives: %s"
+msgstr "Архив автора: %s"
+
+#: author.php:37 loop-single.php:43
+msgid "About %s"
+msgstr "Об авторе %s"
+
+#: category.php:16
+msgid "Category Archives: %s"
+msgstr "Архив рубрики: %s"
+
+#: comments.php:18
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+"Эта запись защищена паролем. Введите пароль, чтобы посмотреть комментарии."
+
+#: comments.php:35
+msgid "One Response to %2$s"
+msgid_plural "%1$s Responses to %2$s"
+msgstr[0] "Один комментарий: %2$s"
+msgstr[1] "%1$s комментария: %2$s"
+msgstr[2] "%1$s комментариев: %2$s"
+msgstr[3] "%1$s комментарий: %2$s"
+
+#: comments.php:41 comments.php:60
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr "<span class=\"meta-nav\">&larr;</span> Предыдущие комментарии"
+
+#: comments.php:42 comments.php:61
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Следующие комментарии <span class=\"meta-nav\">&rarr;</span>"
+
+#: comments.php:70
+msgid "Comments are closed."
+msgstr "Комментарии запрещены."
+
+#. #-#-#-#-#  twentyten.pot (Twenty Ten 1.5)  #-#-#-#-#
+#. Author URI of the plugin/theme
+#: footer.php:33
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: footer.php:33
+msgid "Semantic Personal Publishing Platform"
+msgstr "Современная персональная платформа для публикаций"
+
+#: footer.php:33
+msgid "Proudly powered by %s."
+msgstr "Сайт работает на %s."
+
+#: functions.php:93
+msgid "Primary Navigation"
+msgstr "Основная навигация"
+
+#. translators: header image description
+#: functions.php:145
+msgid "Berries"
+msgstr "Ягоды"
+
+#. translators: header image description
+#: functions.php:151
+msgid "Cherry Blossoms"
+msgstr "Цветущая вишня"
+
+#. translators: header image description
+#: functions.php:157
+msgid "Concave"
+msgstr "Свод"
+
+#. translators: header image description
+#: functions.php:163
+msgid "Fern"
+msgstr "Папоротник"
+
+#. translators: header image description
+#: functions.php:169
+msgid "Forest Floor"
+msgstr "Лесная подстилка"
+
+#. translators: header image description
+#: functions.php:175
+msgid "Inkwell"
+msgstr "Чернила"
+
+#. translators: header image description
+#: functions.php:181
+msgid "Path"
+msgstr "Дорожка"
+
+#. translators: header image description
+#: functions.php:187
+msgid "Sunset"
+msgstr "Закат"
+
+#: functions.php:255 loop-attachment.php:104 loop.php:115 loop.php:143
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Читать далее <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:338
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">говорит:</span>"
+
+#: functions.php:341
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает проверки."
+
+#. translators: 1: date, 2: time
+#: functions.php:348
+msgid "%1$s at %2$s"
+msgstr "%1$s в %2$s"
+
+#: functions.php:348 functions.php:365
+msgid "(Edit)"
+msgstr "(Изменить)"
+
+#: functions.php:365
+msgid "Pingback:"
+msgstr "Уведомление:"
+
+#: functions.php:384
+msgid "Primary Widget Area"
+msgstr "Основная область"
+
+#: functions.php:386
+msgid "The primary widget area"
+msgstr "Основная область виджетов"
+
+#: functions.php:395
+msgid "Secondary Widget Area"
+msgstr "Дополнительная область"
+
+#: functions.php:397
+msgid "The secondary widget area"
+msgstr "Дополнительная область виджетов"
+
+#: functions.php:406
+msgid "First Footer Widget Area"
+msgstr "Первая область подвала"
+
+#: functions.php:408
+msgid "The first footer widget area"
+msgstr "Первая область виджетов подвала"
+
+#: functions.php:417
+msgid "Second Footer Widget Area"
+msgstr "Вторая область подвала"
+
+#: functions.php:419
+msgid "The second footer widget area"
+msgstr "Вторая область виджетов подвала"
+
+#: functions.php:428
+msgid "Third Footer Widget Area"
+msgstr "Третья область подвала"
+
+#: functions.php:430
+msgid "The third footer widget area"
+msgstr "Третья область виджетов подвала"
+
+#: functions.php:439
+msgid "Fourth Footer Widget Area"
+msgstr "Четвёртая область подвала"
+
+#: functions.php:441
+msgid "The fourth footer widget area"
+msgstr "Четвёртая область виджетов подвала"
+
+#: functions.php:475
+msgid ""
+"<span class=\"%1$s\">Posted on</span> %2$s <span class=\"meta-sep\">by</"
+"span> %3$s"
+msgstr ""
+"<span class=\"%1$s\">Опубликовано</span> %2$s <span class=\"meta-sep"
+"\">автором</span> %3$s"
+
+#: functions.php:484 loop-attachment.php:36
+msgid "View all posts by %s"
+msgstr "Посмотреть все записи автора %s"
+
+#: functions.php:501
+msgid ""
+"This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" "
+"title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+"Запись опубликована в рубрике %1$s с метками %2$s. Добавьте в закладки <a "
+"href=\"%3$s\" title=\"Постоянная ссылка: %4$s\" rel=\"bookmark\">постоянную "
+"ссылку</a>."
+
+#: functions.php:503
+msgid ""
+"This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" title="
+"\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+"Запись опубликована в рубрике %1$s. Добавьте в закладки <a href=\"%3$s\" "
+"title=\"Постоянная ссылка: %4$s\" rel=\"bookmark\">постоянную ссылку</a>."
+
+#: functions.php:505
+msgid ""
+"Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark"
+"\">permalink</a>."
+msgstr ""
+"Добавьте в закладки <a href=\"%3$s\" title=\"Постоянная ссылка: %4$s\" rel="
+"\"bookmark\">постоянную ссылку</a>."
+
+#: header.php:33
+msgid "Page %s"
+msgstr "Страница %s"
+
+#: header.php:101
+msgid "Skip to content"
+msgstr "Перейти к содержимому"
+
+#: loop-attachment.php:21
+msgid "Return to %s"
+msgstr "Вернуться: %s"
+
+#. translators: %s - title of parent post
+#: loop-attachment.php:23
+msgid "<span class=\"meta-nav\">&larr;</span> %s"
+msgstr "<span class=\"meta-nav\">&larr;</span> %s"
+
+#: loop-attachment.php:32
+msgid "<span class=\"%1$s\">By</span> %2$s"
+msgstr "<span class=\"%1$s\">Автор:</span> %2$s"
+
+#: loop-attachment.php:43
+msgid "<span class=\"%1$s\">Published</span> %2$s"
+msgstr "<span class=\"%1$s\">Опубликовано</span> %2$s"
+
+#: loop-attachment.php:53
+msgid "Full size is %s pixels"
+msgstr "Полный размер: %s пикселей"
+
+#: loop-attachment.php:56
+msgid "Link to full-size image"
+msgstr "Ссылка на полноразмерное изображение"
+
+#: loop-attachment.php:63 loop-attachment.php:111 loop-page.php:30
+#: loop-single.php:56 loop.php:100 loop.php:123 loop.php:165
+msgid "Edit"
+msgstr "Изменить"
+
+#: loop-attachment.php:105 loop-page.php:29 loop-single.php:34 loop.php:144
+msgid "Pages:"
+msgstr "Страницы:"
+
+#: loop-single.php:21 loop-single.php:61
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: loop-single.php:22 loop-single.php:62
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: loop-single.php:47
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Посмотреть все записи автора %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: loop.php:25 loop.php:178
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Предыдущие записи"
+
+#: loop.php:26 loop.php:179
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Следующие записи <span class=\"meta-nav\">&rarr;</span>"
+
+#: loop.php:35
+msgid ""
+"Apologies, but no results were found for the requested archive. Perhaps "
+"searching will help find a related post."
+msgstr ""
+"Извините, запрошенный вами архив не найден. Попробуйте найти нужную запись с "
+"помощью поиска."
+
+#: loop.php:60 loop.php:95 loop.php:96
+msgctxt "gallery category slug"
+msgid "gallery"
+msgstr "gallery"
+
+#: loop.php:62 loop.php:83 loop.php:131
+msgid "Permalink to %s"
+msgstr "Постоянная ссылка: %s"
+
+#: loop.php:82
+msgid "This gallery contains <a %1$s>%2$s photo</a>."
+msgid_plural "This gallery contains <a %1$s>%2$s photos</a>."
+msgstr[0] "Эта галерея содержит <a %1$s>%2$s фотографию</a>."
+msgstr[1] "Эта галерея содержит <a %1$s>%2$s фотографии</a>."
+msgstr[2] "Эта галерея содержит <a %1$s>%2$s фотографий</a>."
+msgstr[3] "Эта галерея содержит <a %1$s>%2$s фотографию</a>."
+
+#: loop.php:93
+msgid "View Galleries"
+msgstr "Посмотреть галереи"
+
+#: loop.php:93 loop.php:96
+msgid "More Galleries"
+msgstr "Другие галереи"
+
+#: loop.php:96
+msgid "View posts in the Gallery category"
+msgstr "Посмотреть записи в рубрике &laquo;Галерея&raquo;"
+
+#: loop.php:99 loop.php:122 loop.php:164
+msgid "Leave a comment"
+msgstr "Добавить комментарий"
+
+#: loop.php:99 loop.php:122 loop.php:164
+msgid "1 Comment"
+msgstr "1 комментарий"
+
+#: loop.php:99 loop.php:122 loop.php:164
+msgid "% Comments"
+msgstr "Комментарии (%)"
+
+#: loop.php:106
+msgctxt "asides category slug"
+msgid "asides"
+msgstr "asides"
+
+#: loop.php:151
+msgid "<span class=\"%1$s\">Posted in</span> %2$s"
+msgstr "<span class=\"%1$s\">Рубрика:</span> %2$s"
+
+#: loop.php:160
+msgid "<span class=\"%1$s\">Tagged</span> %2$s"
+msgstr "<span class=\"%1$s\">Метки:</span> %2$s"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Результаты поиска: %s"
+
+#: search.php:26
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+#: search.php:28
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+"Извините, по вашему запросу ничего не найдено. Попробуйте другие ключевые "
+"слова."
+
+#: sidebar.php:27
+msgid "Archives"
+msgstr "Архивы"
+
+#: sidebar.php:34
+msgid "Meta"
+msgstr "Прочее"
+
+#: tag.php:16
+msgid "Tag Archives: %s"
+msgstr "Архив метки: %s"
+
+#. Theme Name of the plugin/theme
+msgid "Twenty Ten"
+msgstr "Twenty Ten"
+
+#. Theme URI of the plugin/theme
+msgid "http://wordpress.org/extend/themes/twentyten"
+msgstr "http://wordpress.org/extend/themes/twentyten"
+
+#. Description of the plugin/theme
+msgid ""
+"The 2010 theme for WordPress is stylish, customizable, simple, and readable "
+"-- make it yours with a custom menu, header image, and background. Twenty "
+"Ten supports six widgetized areas (two in the sidebar, four in the footer) "
+"and featured images (thumbnails for gallery posts and custom header images "
+"for posts and pages). It includes stylesheets for print and the admin Visual "
+"Editor, special styles for posts in the \"Asides\" and \"Gallery\" "
+"categories, and has an optional one-column page template that removes the "
+"sidebar."
+msgstr ""
+"Тема 2010 для WordPress &#8212; стильная, настраиваемая, простая и читаемая. "
+"Сделайте её своей, создав произвольное меню, изображение заголовка и фон. "
+"Twenty Ten поддерживает шесть областей для виджетов (две в боковой колонке и "
+"четыре в подвале) и изображения для записей (миниатюры записей в галереях и "
+"произвольные изображения заголовка для записей и страниц). Она содержит "
+"таблицы стилей для печати и визуального редактора, особые стили для записей "
+"в рубриках &laquo;Заметки&raquo; и &laquo;Галерея&raquo;, а также "
+"одноколоночный шаблон для страниц без боковой колонки."
+
+#. Author of the plugin/theme
+msgid "the WordPress team"
+msgstr "Команда WordPress"
+
+#. Template Name of the plugin/theme
+msgid "One column, no sidebar"
+msgstr "Одна колонка, без боковой панели"
