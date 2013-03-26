@@ -7,6 +7,19 @@
  * @package WordPress
  */
 
+function __autoload($pkg_name)
+{
+	$swp = \explode('\\', $pkg_name);
+	$prefix = \ABSPATH . 'src' . \DIRECTORY_SEPARATOR . implode(\DIRECTORY_SEPARATOR, $swp) . '.';
+	foreach (['class','interface','trait'] as $type) {
+		$filename = $prefix . "{$type}.phps";
+		if (\file_exists($filename)) {
+			require_once $filename;
+			break;
+		}
+	}
+}
+
 /**
  * Turn register globals off.
  *
